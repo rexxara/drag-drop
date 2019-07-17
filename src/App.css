@@ -31,3 +31,16 @@
     transform: rotate(360deg);
   }
 }
+.fileInput{
+  display: none;
+}
+.imgList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+.dragableListItem{
+  transition: all 3s ease;
+}
